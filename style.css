@@ -20,7 +20,7 @@ ul {
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    margin-left: 100px;
+    margin-left: 160px;
     padding: 1rem;
 }
 .segunda {
@@ -35,17 +35,44 @@ h1 {
 }
 .bienvenida {
     padding: 50px;
-    margin-left: 100px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.boton {
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background: #1e90ff ;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #F9FAF8;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.boton:hover, .boton:focus, .boton:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale (1.1);
+    transform: scale(1.1);
+
 }
 .placeholder {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 400px;
-    margin: 50px;
+    margin: 70px;
     height: 200px;
     background-color: gray;
-    
+    padding-right: 50px;
+    margin-right: 220px;
+    margin-bottom: 200px;
 }
 
 .links {
